@@ -526,7 +526,7 @@ const setMusic = (i) => {
         seekBar.max = music.duration;
         musicDuration.innerHTML = formatTime(music.duration);
     }
-    title.textContent = 'Spotengfy | ' + song.name + ' - ' + song.artist;
+    title.textContent = 'WikiMusic OG | ' + song.name + ' - ' + song.artist;
     
     link.rel = 'shortcut icon';
     link.href = song.cover;
